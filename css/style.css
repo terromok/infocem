@@ -1,0 +1,491 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 25px;
+  color: #131313;
+}
+header {
+  width: 1290px;
+  height: 43px;
+  margin-left: 75px;
+  margin-top: 27px;
+  display: flex;
+}
+header .logo {
+  width: 120px;
+  height: 20px;
+  font-family: HelveticaNeueCyr;
+  line-height: normal;
+  font-size: 20px;
+  color: #131313;
+}
+header nav {
+  width: 900px;
+  height: 43px;
+  margin-left: 105px;
+  margin-top: 3px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  font-variant: small-caps;
+  color: #555454;
+}
+header .find {
+  width: 16px;
+  height: 16px;
+  margin-left: 41px;
+  margin-top: 4px;
+  background-image: url(..//img/find.svg);
+}
+header .login {
+  width: 16px;
+  height: 16px;
+  margin-left: 18px;
+  margin-top: 4px;
+  background-image: url(..//img/login.svg);
+}
+header .language {
+  margin-left: 25px;
+  margin-top: 3px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  color: #555454;
+}
+header .flag {
+  width: 20px;
+  height: 12px;
+  margin-left: 7px;
+  margin-top: 5px;
+  background-image: url(..//img/flagen.png);
+}
+.blockread {
+  width: 720px;
+}
+.blockread .blockread__bcgr {
+  width: 720px;
+  height: 480px;
+  background: #FFFFFF;
+  position: relative;
+}
+.blockread .blockread__bcgr .blockread__bcgr_1 {
+  width: 120px;
+  height: 453px;
+  margin-bottom: 33px;
+  position: absolute;
+  background-image: url(..//img/1.png);
+}
+.blockread .blockread__bcgr .blockread__bcgr_2 {
+  width: 131px;
+  height: 300px;
+  bottom: 11px;
+  position: absolute;
+  background-image: url(..//img/2.png);
+}
+.blockread .blockread__bcgr .blockread__bcgr_3 {
+  width: 185px;
+  height: 432px;
+  position: absolute;
+  background-image: url(..//img/3.png);
+}
+.blockread .blockread__bcgr .blockread__bcgr_4 {
+  width: 150px;
+  height: 311px;
+  position: absolute;
+  background-image: url(..//img/4.png);
+}
+.blockread .blockread__bcgr .blockread__bcgr_5 {
+  width: 299px;
+  height: 480px;
+  position: absolute;
+  background-image: url(..//img/5.png);
+}
+.blockread .blockread__bcgr .blockread__bcgr_6 {
+  width: 205px;
+  height: 301px;
+  bottom: 39px;
+  left: 105px;
+  position: absolute;
+  background-image: url(..//img/6.png);
+}
+.blockread .blockread__bcgr .blockread__bcgr_7 {
+  width: 85px;
+  height: 51px;
+  position: absolute;
+  background-image: url(..//img/7.png);
+}
+.blockread .blockread__bcgr .blockread__p {
+  position: absolute;
+  width: 522px;
+  height: 42px;
+  left: 123px;
+  top: 129px;
+  font-family: HelveticaNeueCyr;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: right;
+  color: #131313;
+}
+.blockread .blockread__bcgr .blockread__logo {
+  background-image: url(..//img/br-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 334.48px;
+  height: 97.02px;
+  left: 325px;
+  top: 166px;
+}
+.blockread .blockread__bcgr .blockread__button {
+  position: absolute;
+  width: 208px;
+  height: 47px;
+  left: 437px;
+  top: 294px;
+  background: #FFCB54;
+  border-radius: 50px;
+}
+.blockread .blockread__bcgr .blockread__button p {
+  margin-top: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+}
+.blockread .blockread__bcgr .blockread__download p {
+  position: absolute;
+  width: 164px;
+  height: 17px;
+  left: 459px;
+  top: 357px;
+  font-size: 14px;
+  color: #A1A1A1;
+}
+.blockread .blockread__thematics {
+  margin-left: 75px;
+  margin-top: 100px;
+}
+.blockread .blockread__thematics h2 {
+  margin-left: 61px;
+  margin-bottom: 35px;
+}
+.blockread .blockread__thematics li {
+  display: flex;
+  margin-bottom: 23px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  font-size: 16px;
+  color: #131313;
+  text-align: left;
+  list-style: none;
+}
+.blockread .blockread__thematics li img {
+  margin-left: 0;
+  margin-right: 40px;
+}
+.blockread .blockread__facts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 556px;
+  height: 386px;
+  margin-top: 100px;
+  margin-left: 75px;
+}
+.blockread .blockread__facts article {
+  margin-bottom: 50px;
+}
+.blockread .blockread__facts h2 {
+  margin-bottom: 70px;
+}
+.blockread .blockread__facts h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 20px;
+  color: #131313;
+}
+.blockread .blockread__facts .orangerectangle {
+  width: 134px;
+  height: 3px;
+  background-color: #F2994A;
+  margin-top: 18px;
+  margin-bottom: 25px;
+}
+.blockread .blockread__participants {
+  width: 558px;
+  height: 668px;
+  margin-top: 294px;
+  margin-left: 75px;
+}
+.blockread .blockread__participants .orangerectangle {
+  width: 20px;
+  height: 3px;
+  background-color: #F2994A;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.blockread .blockread__participants h2 {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+.blockread .blockread__participants li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 23px;
+}
+.mixbuild {
+  width: 720px;
+  background: #F9F9F7;
+}
+.mixbuild .mixbuild__bcgr {
+  width: 720px;
+  height: 480px;
+  position: relative;
+}
+.mixbuild .mixbuild__bcgr .mixbuild__bcgr_1 {
+  width: 121px;
+  height: 453px;
+  right: 0;
+  margin-bottom: 33px;
+  position: absolute;
+  background-image: url(..//img/mb1.png);
+}
+.mixbuild .mixbuild__bcgr .mixbuild__bcgr_2 {
+  width: 131px;
+  height: 300px;
+  right: 0;
+  bottom: 11px;
+  position: absolute;
+  background-image: url(..//img/mb2.png);
+}
+.mixbuild .mixbuild__bcgr .mixbuild__bcgr_3 {
+  width: 186px;
+  height: 432px;
+  right: 0;
+  bottom: 54px;
+  position: absolute;
+  background-image: url(..//img/mb3.png);
+}
+.mixbuild .mixbuild__bcgr .mixbuild__bcgr_4 {
+  width: 151px;
+  height: 311px;
+  right: 0;
+  bottom: 170px;
+  position: absolute;
+  background-image: url(..//img/mb4.png);
+}
+.mixbuild .mixbuild__bcgr .mixbuild__bcgr_5 {
+  width: 205px;
+  height: 300px;
+  right: 105px;
+  bottom: 18.2px;
+  position: absolute;
+  background-image: url(..//img/mb5.png);
+}
+.mixbuild .mixbuild__bcgr .mixbuild__bcgr_6 {
+  width: 300px;
+  height: 480px;
+  right: 0;
+  position: absolute;
+  background-image: url(..//img/mb6.png);
+}
+.mixbuild .mixbuild__bcgr .mixbuild__bcgr_7 {
+  width: 85px;
+  height: 51px;
+  right: 0;
+  position: absolute;
+  background-image: url(..//img/mb7.png);
+}
+.mixbuild .mixbuild__bcgr .mixbuild__p {
+  position: absolute;
+  width: 579px;
+  height: 42px;
+  left: 75px;
+  top: 129px;
+  font-family: HelveticaNeueCyr;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: left;
+  color: #131313;
+}
+.mixbuild .mixbuild__bcgr .mixbuild__logo {
+  background-image: url(..//img/mb-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 321px;
+  height: 93.26px;
+  left: 27.5px;
+  top: 167px;
+}
+.mixbuild .mixbuild__bcgr .mixbuild__button {
+  position: absolute;
+  width: 208px;
+  height: 47px;
+  left: 79px;
+  top: 294px;
+  background: #FFCB54;
+  border-radius: 50px;
+}
+.mixbuild .mixbuild__bcgr .mixbuild__button p {
+  margin-top: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+}
+.mixbuild .mixbuild__bcgr .mixbuild__download p {
+  position: absolute;
+  width: 164px;
+  height: 17px;
+  left: 101px;
+  top: 357px;
+  font-size: 14px;
+  color: #A1A1A1;
+}
+.mixbuild .mixbuild__thematics {
+  margin-left: 75px;
+  margin-top: 100px;
+}
+.mixbuild .mixbuild__thematics h2 {
+  margin-left: 61px;
+  margin-bottom: 35px;
+}
+.mixbuild .mixbuild__thematics li {
+  display: flex;
+  margin-bottom: 23px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  font-size: 16px;
+  color: #131313;
+  text-align: left;
+  list-style: none;
+}
+.mixbuild .mixbuild__thematics li img {
+  margin-left: 0;
+  margin-right: 40px;
+}
+.mixbuild .mixbuild__facts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 556px;
+  height: 386px;
+  margin-top: 240px;
+  margin-left: 75px;
+}
+.mixbuild .mixbuild__facts article {
+  margin-bottom: 50px;
+}
+.mixbuild .mixbuild__facts h2 {
+  margin-bottom: 70px;
+}
+.mixbuild .mixbuild__facts h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 20px;
+  color: #131313;
+}
+.mixbuild .mixbuild__facts .orangerectangle {
+  width: 134px;
+  height: 3px;
+  background-color: #F2994A;
+  margin-top: 18px;
+  margin-bottom: 25px;
+}
+.mixbuild .mixbuild__participants {
+  width: 558px;
+  height: 668px;
+  margin-top: 294px;
+  margin-left: 75px;
+}
+.mixbuild .mixbuild__participants .orangerectangle {
+  width: 20px;
+  height: 3px;
+  background-color: #F2994A;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.mixbuild .mixbuild__participants h2 {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+.mixbuild .mixbuild__participants li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 23px;
+}
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  width: 1365px;
+  height: 487px;
+  margin-top: 100px;
+  margin-left: 75px;
+  position: relative;
+}
+.presentation h2 {
+  margin-top: 22px;
+  margin-bottom: 35px;
+}
+.presentation .orangesquare {
+  position: absolute;
+  z-index: -2;
+  width: 44px;
+  height: 44px;
+  left: 623px;
+  border: 2px solid #F2994A;
+  box-sizing: border-box;
+}
+.presentation img {
+  margin-right: 0;
+  margin-top: 22px;
+}
+.presentation p {
+  width: 610px;
+  height: 334px;
+  left: 75px;
+  top: 3119px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 16px;
+  color: #555454;
+}
